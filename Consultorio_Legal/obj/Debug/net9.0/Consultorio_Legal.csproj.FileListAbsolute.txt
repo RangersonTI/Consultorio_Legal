@@ -31,3 +31,9 @@ B:\Documents\GitHub\Consultorio_Legal\Consultorio_Legal\obj\Debug\net9.0\refint\
 B:\Documents\GitHub\Consultorio_Legal\Consultorio_Legal\obj\Debug\net9.0\Consultorio_Legal.pdb
 B:\Documents\GitHub\Consultorio_Legal\Consultorio_Legal\obj\Debug\net9.0\Consultorio_Legal.genruntimeconfig.cache
 B:\Documents\GitHub\Consultorio_Legal\Consultorio_Legal\obj\Debug\net9.0\ref\Consultorio_Legal.dll
+B:\Documents\GitHub\Consultorio_Legal\Consultorio_Legal\bin\Debug\net9.0\Core.dll
+B:\Documents\GitHub\Consultorio_Legal\Consultorio_Legal\bin\Debug\net9.0\Core.pdb
+B:\Documents\GitHub\Consultorio_Legal\Consultorio_Legal\obj\Debug\net9.0\Consultorio_Legal.sourcelink.json
+B:\Documents\GitHub\Consultorio_Legal\Consultorio_Legal\bin\Debug\net9.0\Swashbuckle.AspNetCore.Swagger.dll
+B:\Documents\GitHub\Consultorio_Legal\Consultorio_Legal\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+B:\Documents\GitHub\Consultorio_Legal\Consultorio_Legal\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerUI.dll
