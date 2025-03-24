@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "2+pqwr8tF8I=",
+  "success": true,
+  "projectFilePath": "B:\\Documents\\GitHub\\Consultorio_Legal\\Consultorio_Legal\\Consultorio_Legal.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Rangerson Clemente 1\\.nuget\\packages\\microsoft.aspnetcore.openapi\\9.0.3\\microsoft.aspnetcore.openapi.9.0.3.nupkg.sha512",
+    "C:\\Users\\Rangerson Clemente 1\\.nuget\\packages\\microsoft.openapi\\1.6.17\\microsoft.openapi.1.6.17.nupkg.sha512"
+  ],
+  "logs": []
+}
