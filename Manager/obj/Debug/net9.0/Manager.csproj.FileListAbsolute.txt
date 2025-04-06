@@ -1,0 +1,12 @@
+B:\Documents\GitHub\Consultorio_Legal\Manager\bin\Debug\net9.0\Manager.deps.json
+B:\Documents\GitHub\Consultorio_Legal\Manager\bin\Debug\net9.0\Manager.dll
+B:\Documents\GitHub\Consultorio_Legal\Manager\bin\Debug\net9.0\Manager.pdb
+B:\Documents\GitHub\Consultorio_Legal\Manager\obj\Debug\net9.0\Manager.GeneratedMSBuildEditorConfig.editorconfig
+B:\Documents\GitHub\Consultorio_Legal\Manager\obj\Debug\net9.0\Manager.AssemblyInfoInputs.cache
+B:\Documents\GitHub\Consultorio_Legal\Manager\obj\Debug\net9.0\Manager.AssemblyInfo.cs
+B:\Documents\GitHub\Consultorio_Legal\Manager\obj\Debug\net9.0\Manager.csproj.CoreCompileInputs.cache
+B:\Documents\GitHub\Consultorio_Legal\Manager\obj\Debug\net9.0\Manager.sourcelink.json
+B:\Documents\GitHub\Consultorio_Legal\Manager\obj\Debug\net9.0\Manager.dll
+B:\Documents\GitHub\Consultorio_Legal\Manager\obj\Debug\net9.0\refint\Manager.dll
+B:\Documents\GitHub\Consultorio_Legal\Manager\obj\Debug\net9.0\Manager.pdb
+B:\Documents\GitHub\Consultorio_Legal\Manager\obj\Debug\net9.0\ref\Manager.dll
