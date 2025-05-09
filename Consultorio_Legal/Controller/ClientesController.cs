@@ -1,4 +1,6 @@
+using System.Threading.Tasks;
 using Core.Domain;
+using Manager;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Consultorio_Legal.Controller
@@ -7,26 +9,38 @@ namespace Consultorio_Legal.Controller
     [ApiController]
     public class ClientesController : ControllerBase
     {
+        private readonly IClienteManager clienteManager;
+
+        public ClientesController(IClienteManager clienteManager)
+        {
+            this.clienteManager = clienteManager;
+        }
+
         [HttpGet]
-        public IActionResult Get(){
-            return Ok(
-                new List<Cliente>(){
-                    new Cliente{
-                        Id=1,
-                        Nome="Rangerson Clemente",
-                        DataNascimento = new DateTime(2003,05,31)
-                    },
-                    new Cliente{
-                        Id=2,
-                        Nome="Romaldo Clemente",
-                        DataNascimento = new DateTime(2005,07,30)
-                    }
-            });
+        public async Task<IActionResult> Get(){
+
+            return Ok(await clienteManager.GetClientesAsync());
+            // return Ok(
+            //     new List<Cliente>(){
+            //         new Cliente{
+            //             Id=1,
+            //             Nome="Rangerson Clemente",
+            //             DataNascimento = new DateTime(2003,05,31)
+            //         },
+            //         new Cliente{
+            //             Id=2,
+            //             Nome="Romaldo Clemente",
+            //             DataNascimento = new DateTime(2005,07,30)
+            //         }
+            // });
         }
 
         [HttpGet("{id}")]
-        public string Get(int id){
-            return "Cliente1";
+        public async Task<IActionResult> Get(int id){
+
+            return Ok(await clienteManager.GetClienteByIdAsync(id));
+
+            // return "Cliente1";
         }
 
         [HttpPost]

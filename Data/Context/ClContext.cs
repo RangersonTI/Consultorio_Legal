@@ -5,10 +5,7 @@ namespace Data.Context{
     public class ClContext: DbContext
     {
         public DbSet<Cliente> Clientes {get; set;}
-        public ClContext(DbContextOptions options) : base(options){
-            
-        }
+        public ClContext(DbContextOptions options) : base(options){}
     }
-
 }
 

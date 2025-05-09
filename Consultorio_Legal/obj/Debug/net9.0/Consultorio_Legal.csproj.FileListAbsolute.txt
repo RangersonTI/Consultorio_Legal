@@ -26,10 +26,16 @@ B:\Documents\GitHub\Consultorio_Legal\Consultorio_Legal\bin\Debug\net9.0\Microso
 B:\Documents\GitHub\Consultorio_Legal\Consultorio_Legal\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.SqlServer.dll
 B:\Documents\GitHub\Consultorio_Legal\Consultorio_Legal\bin\Debug\net9.0\Microsoft.Extensions.Caching.Abstractions.dll
 B:\Documents\GitHub\Consultorio_Legal\Consultorio_Legal\bin\Debug\net9.0\Microsoft.Extensions.Caching.Memory.dll
+B:\Documents\GitHub\Consultorio_Legal\Consultorio_Legal\bin\Debug\net9.0\Microsoft.Extensions.Configuration.dll
 B:\Documents\GitHub\Consultorio_Legal\Consultorio_Legal\bin\Debug\net9.0\Microsoft.Extensions.Configuration.Abstractions.dll
+B:\Documents\GitHub\Consultorio_Legal\Consultorio_Legal\bin\Debug\net9.0\Microsoft.Extensions.Configuration.FileExtensions.dll
+B:\Documents\GitHub\Consultorio_Legal\Consultorio_Legal\bin\Debug\net9.0\Microsoft.Extensions.Configuration.Json.dll
 B:\Documents\GitHub\Consultorio_Legal\Consultorio_Legal\bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.dll
 B:\Documents\GitHub\Consultorio_Legal\Consultorio_Legal\bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
 B:\Documents\GitHub\Consultorio_Legal\Consultorio_Legal\bin\Debug\net9.0\Microsoft.Extensions.DependencyModel.dll
+B:\Documents\GitHub\Consultorio_Legal\Consultorio_Legal\bin\Debug\net9.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+B:\Documents\GitHub\Consultorio_Legal\Consultorio_Legal\bin\Debug\net9.0\Microsoft.Extensions.FileProviders.Physical.dll
+B:\Documents\GitHub\Consultorio_Legal\Consultorio_Legal\bin\Debug\net9.0\Microsoft.Extensions.FileSystemGlobbing.dll
 B:\Documents\GitHub\Consultorio_Legal\Consultorio_Legal\bin\Debug\net9.0\Microsoft.Extensions.Logging.dll
 B:\Documents\GitHub\Consultorio_Legal\Consultorio_Legal\bin\Debug\net9.0\Microsoft.Extensions.Logging.Abstractions.dll
 B:\Documents\GitHub\Consultorio_Legal\Consultorio_Legal\bin\Debug\net9.0\Microsoft.Extensions.Options.dll
@@ -143,8 +149,10 @@ B:\Documents\GitHub\Consultorio_Legal\Consultorio_Legal\bin\Debug\net9.0\runtime
 B:\Documents\GitHub\Consultorio_Legal\Consultorio_Legal\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
 B:\Documents\GitHub\Consultorio_Legal\Consultorio_Legal\bin\Debug\net9.0\Core.dll
 B:\Documents\GitHub\Consultorio_Legal\Consultorio_Legal\bin\Debug\net9.0\Data.dll
+B:\Documents\GitHub\Consultorio_Legal\Consultorio_Legal\bin\Debug\net9.0\Manager.dll
 B:\Documents\GitHub\Consultorio_Legal\Consultorio_Legal\bin\Debug\net9.0\Core.pdb
 B:\Documents\GitHub\Consultorio_Legal\Consultorio_Legal\bin\Debug\net9.0\Data.pdb
+B:\Documents\GitHub\Consultorio_Legal\Consultorio_Legal\bin\Debug\net9.0\Manager.pdb
 B:\Documents\GitHub\Consultorio_Legal\Consultorio_Legal\obj\Debug\net9.0\Consultorio_Legal.csproj.AssemblyReference.cache
 B:\Documents\GitHub\Consultorio_Legal\Consultorio_Legal\obj\Debug\net9.0\Consultorio_Legal.GeneratedMSBuildEditorConfig.editorconfig
 B:\Documents\GitHub\Consultorio_Legal\Consultorio_Legal\obj\Debug\net9.0\Consultorio_Legal.AssemblyInfoInputs.cache

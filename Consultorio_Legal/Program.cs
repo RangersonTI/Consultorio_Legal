@@ -1,16 +1,29 @@
 using Data.Context;
+using Data.Repository;
+using Manager;
+using Manager.Implementation;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.OpenApi.Models;
 
 // CONFIGURA A LEITURA DO appsettings.json
-IConfigurationRoot configuration = new ConfigurationBuilder().SetBasePath(AppDomain.CurrentDomain.BaseDirectory).AddJsonFile("appsettings.json").Build();
 
 var builder = WebApplication.CreateBuilder(args);
 
+// var path = Path.Combine(Directory.GetCurrentDirectory(),"..","Consultorio_Legal");
+
+// IConfigurationRoot configuration = new ConfigurationBuilder().SetBasePath(path).AddJsonFile("appsettings.json").Build();
 
 builder.Services.AddControllers();
 
-builder.Services.AddDbContext<ClContext>(options => options.UseSqlServer(configuration.GetConnectionString("ClConnection")));
+builder.Services.AddDbContext<ClContext>(
+    options => options.UseSqlServer(builder.Configuration.GetConnectionString("ClConnection"))
+);
+
+// builder.Services.AddDbContext<ClContext>(options => options.UseSqlServer(configuration.GetConnectionString("ClConnection")));
+
+builder.Services.AddScoped<IClienteRepository, ClienteRepository>();
+
+builder.Services.AddScoped<IClienteManager, ClienteManager>();
 
 builder.Services.AddEndpointsApiExplorer();
 
@@ -43,8 +56,8 @@ app.UseSwaggerUI(
     }
 );
 
-app.UseHttpsRedirection();
+// app.UseHttpsRedirection();
 
-app.UseAuthentication();
+// app.UseAuthentication();
 
 app.Run();

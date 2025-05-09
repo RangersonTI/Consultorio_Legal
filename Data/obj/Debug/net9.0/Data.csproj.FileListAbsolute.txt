@@ -1,8 +1,11 @@
 B:\Documents\GitHub\Consultorio_Legal\Data\bin\Debug\net9.0\Data.deps.json
+B:\Documents\GitHub\Consultorio_Legal\Data\bin\Debug\net9.0\Data.runtimeconfig.json
 B:\Documents\GitHub\Consultorio_Legal\Data\bin\Debug\net9.0\Data.dll
 B:\Documents\GitHub\Consultorio_Legal\Data\bin\Debug\net9.0\Data.pdb
 B:\Documents\GitHub\Consultorio_Legal\Data\bin\Debug\net9.0\Core.dll
+B:\Documents\GitHub\Consultorio_Legal\Data\bin\Debug\net9.0\Manager.dll
 B:\Documents\GitHub\Consultorio_Legal\Data\bin\Debug\net9.0\Core.pdb
+B:\Documents\GitHub\Consultorio_Legal\Data\bin\Debug\net9.0\Manager.pdb
 B:\Documents\GitHub\Consultorio_Legal\Data\obj\Debug\net9.0\Data.csproj.AssemblyReference.cache
 B:\Documents\GitHub\Consultorio_Legal\Data\obj\Debug\net9.0\Data.GeneratedMSBuildEditorConfig.editorconfig
 B:\Documents\GitHub\Consultorio_Legal\Data\obj\Debug\net9.0\Data.AssemblyInfoInputs.cache
@@ -13,4 +16,5 @@ B:\Documents\GitHub\Consultorio_Legal\Data\obj\Debug\net9.0\Data.csproj.Up2Date
 B:\Documents\GitHub\Consultorio_Legal\Data\obj\Debug\net9.0\Data.dll
 B:\Documents\GitHub\Consultorio_Legal\Data\obj\Debug\net9.0\refint\Data.dll
 B:\Documents\GitHub\Consultorio_Legal\Data\obj\Debug\net9.0\Data.pdb
+B:\Documents\GitHub\Consultorio_Legal\Data\obj\Debug\net9.0\Data.genruntimeconfig.cache
 B:\Documents\GitHub\Consultorio_Legal\Data\obj\Debug\net9.0\ref\Data.dll

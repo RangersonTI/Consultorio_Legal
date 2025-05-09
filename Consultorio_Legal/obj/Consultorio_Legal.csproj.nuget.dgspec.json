@@ -77,7 +77,7 @@
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
-              "version": "[8.0.0, )"
+              "version": "[8.1.0, )"
             }
           },
           "imports": [
@@ -186,6 +186,9 @@
             "projectReferences": {
               "B:\\Documents\\GitHub\\Consultorio_Legal\\Core\\Core.csproj": {
                 "projectPath": "B:\\Documents\\GitHub\\Consultorio_Legal\\Core\\Core.csproj"
+              },
+              "B:\\Documents\\GitHub\\Consultorio_Legal\\Manager\\Manager.csproj": {
+                "projectPath": "B:\\Documents\\GitHub\\Consultorio_Legal\\Manager\\Manager.csproj"
               }
             }
           }
@@ -209,8 +212,89 @@
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[9.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[9.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[9.0.3, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[9.0.3, )"
             }
           },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "B:\\Documents\\GitHub\\Consultorio_Legal\\Manager\\Manager.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "B:\\Documents\\GitHub\\Consultorio_Legal\\Manager\\Manager.csproj",
+        "projectName": "Manager",
+        "projectPath": "B:\\Documents\\GitHub\\Consultorio_Legal\\Manager\\Manager.csproj",
+        "packagesPath": "C:\\Users\\Rangerson Clemente 1\\.nuget\\packages\\",
+        "outputPath": "B:\\Documents\\GitHub\\Consultorio_Legal\\Manager\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Rangerson Clemente 1\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "B:\\Documents\\GitHub\\Consultorio_Legal\\Core\\Core.csproj": {
+                "projectPath": "B:\\Documents\\GitHub\\Consultorio_Legal\\Core\\Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
           "imports": [
             "net461",
             "net462",
