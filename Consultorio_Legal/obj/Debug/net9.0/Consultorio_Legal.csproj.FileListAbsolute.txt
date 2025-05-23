@@ -8,6 +8,9 @@ B:\Documents\GitHub\Consultorio_Legal\Consultorio_Legal\bin\Debug\net9.0\Consult
 B:\Documents\GitHub\Consultorio_Legal\Consultorio_Legal\bin\Debug\net9.0\Consultorio_Legal.pdb
 B:\Documents\GitHub\Consultorio_Legal\Consultorio_Legal\bin\Debug\net9.0\Azure.Core.dll
 B:\Documents\GitHub\Consultorio_Legal\Consultorio_Legal\bin\Debug\net9.0\Azure.Identity.dll
+B:\Documents\GitHub\Consultorio_Legal\Consultorio_Legal\bin\Debug\net9.0\FluentValidation.dll
+B:\Documents\GitHub\Consultorio_Legal\Consultorio_Legal\bin\Debug\net9.0\FluentValidation.AspNetCore.dll
+B:\Documents\GitHub\Consultorio_Legal\Consultorio_Legal\bin\Debug\net9.0\FluentValidation.DependencyInjectionExtensions.dll
 B:\Documents\GitHub\Consultorio_Legal\Consultorio_Legal\bin\Debug\net9.0\Humanizer.dll
 B:\Documents\GitHub\Consultorio_Legal\Consultorio_Legal\bin\Debug\net9.0\Microsoft.AspNetCore.OpenApi.dll
 B:\Documents\GitHub\Consultorio_Legal\Consultorio_Legal\bin\Debug\net9.0\Microsoft.Bcl.AsyncInterfaces.dll

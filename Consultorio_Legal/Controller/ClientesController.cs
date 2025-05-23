@@ -1,6 +1,7 @@
 using System.Threading.Tasks;
 using Core.Domain;
 using Manager;
+using Manager.Validator;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Consultorio_Legal.Controller
@@ -20,19 +21,6 @@ namespace Consultorio_Legal.Controller
         public async Task<IActionResult> Get(){
 
             return Ok(await clienteManager.GetClientesAsync());
-            // return Ok(
-            //     new List<Cliente>(){
-            //         new Cliente{
-            //             Id=1,
-            //             Nome="Rangerson Clemente",
-            //             DataNascimento = new DateTime(2003,05,31)
-            //         },
-            //         new Cliente{
-            //             Id=2,
-            //             Nome="Romaldo Clemente",
-            //             DataNascimento = new DateTime(2005,07,30)
-            //         }
-            // });
         }
 
         [HttpGet("{id}")]
@@ -44,17 +32,31 @@ namespace Consultorio_Legal.Controller
         }
 
         [HttpPost]
-        public void Post([FromBody] string cliente){
+        public async Task<IActionResult> Post(Cliente cliente)
+        {
+            var clienteInserido = await clienteManager.InsertClienteAsync(cliente);
+            return CreatedAtAction(nameof(Get), new{ id = cliente.Id },cliente);
         }
 
         [HttpPut("{idCliente}")]
-        public void Put(int idCliente, [FromBody] string cliente){
+        public async Task<IActionResult> Put(Cliente cliente)
+        {
+            var clienteAtualizado = await clienteManager.UpdateClienteAsync(cliente);
+            
+            if(clienteAtualizado == null)
+            {
+                return NotFound();
+            }
 
+            return Ok(clienteAtualizado);
         }
 
         [HttpDelete("{id}")]
-        public void Delete(int id){
-            
+        public async Task<IActionResult> Delete(int id)
+        {
+            await clienteManager.DeleteClienteAsync(id);
+            return NoContent();
+
         }
     }
 }

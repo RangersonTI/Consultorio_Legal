@@ -1,25 +1,24 @@
+using System.Globalization;
 using Data.Context;
 using Data.Repository;
+using FluentValidation.AspNetCore;
 using Manager;
 using Manager.Implementation;
+using Manager.Validator;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.OpenApi.Models;
 
-// CONFIGURA A LEITURA DO appsettings.json
-
 var builder = WebApplication.CreateBuilder(args);
 
-// var path = Path.Combine(Directory.GetCurrentDirectory(),"..","Consultorio_Legal");
-
-// IConfigurationRoot configuration = new ConfigurationBuilder().SetBasePath(path).AddJsonFile("appsettings.json").Build();
-
-builder.Services.AddControllers();
+builder.Services.AddControllers().AddFluentValidation(v => 
+    {
+        v.RegisterValidatorsFromAssemblyContaining<ClienteValidator>();
+        v.ValidatorOptions.LanguageManager.Culture = new CultureInfo("PT-BR");
+    });
 
 builder.Services.AddDbContext<ClContext>(
     options => options.UseSqlServer(builder.Configuration.GetConnectionString("ClConnection"))
 );
-
-// builder.Services.AddDbContext<ClContext>(options => options.UseSqlServer(configuration.GetConnectionString("ClConnection")));
 
 builder.Services.AddScoped<IClienteRepository, ClienteRepository>();
 
