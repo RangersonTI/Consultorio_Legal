@@ -4,6 +4,7 @@ using Data.Repository;
 using FluentValidation.AspNetCore;
 using Manager;
 using Manager.Implementation;
+using Manager.Mappings; 
 using Manager.Validator;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.OpenApi.Models;
@@ -12,9 +13,13 @@ var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllers().AddFluentValidation(v => 
     {
-        v.RegisterValidatorsFromAssemblyContaining<ClienteValidator>();
+        v.RegisterValidatorsFromAssemblyContaining<NovoClienteValidator>();
+        v.RegisterValidatorsFromAssemblyContaining<AlteraClienteValidator>();
         v.ValidatorOptions.LanguageManager.Culture = new CultureInfo("PT-BR");
-    });
+    }
+);
+
+builder.Services.AddAutoMapper(typeof(NovoClienteMappingProfile), typeof(AlteraClienteMappingProfile));
 
 builder.Services.AddDbContext<ClContext>(
     options => options.UseSqlServer(builder.Configuration.GetConnectionString("ClConnection"))

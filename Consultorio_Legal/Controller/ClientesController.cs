@@ -1,5 +1,6 @@
 using System.Threading.Tasks;
 using Core.Domain;
+using Core.Shared.ModelViews;
 using Manager;
 using Manager.Validator;
 using Microsoft.AspNetCore.Mvc;
@@ -18,28 +19,27 @@ namespace Consultorio_Legal.Controller
         }
 
         [HttpGet]
-        public async Task<IActionResult> Get(){
+        public async Task<IActionResult> Get()
+        {
 
             return Ok(await clienteManager.GetClientesAsync());
         }
 
         [HttpGet("{id}")]
-        public async Task<IActionResult> Get(int id){
-
+        public async Task<IActionResult> Get(int id)
+        {
             return Ok(await clienteManager.GetClienteByIdAsync(id));
-
-            // return "Cliente1";
         }
 
         [HttpPost]
-        public async Task<IActionResult> Post(Cliente cliente)
+        public async Task<IActionResult> Post(NovoCliente novoCliente)
         {
-            var clienteInserido = await clienteManager.InsertClienteAsync(cliente);
-            return CreatedAtAction(nameof(Get), new{ id = cliente.Id },cliente);
+            var clienteInserido = await clienteManager.InsertClienteAsync(novoCliente);
+            return CreatedAtAction(nameof(Get), new{ id = clienteInserido.Id },clienteInserido);
         }
 
         [HttpPut("{idCliente}")]
-        public async Task<IActionResult> Put(Cliente cliente)
+        public async Task<IActionResult> Put(AlteraCliente cliente)
         {
             var clienteAtualizado = await clienteManager.UpdateClienteAsync(cliente);
             

@@ -6,6 +6,8 @@ B:\Documents\GitHub\Consultorio_Legal\Consultorio_Legal\bin\Debug\net9.0\Consult
 B:\Documents\GitHub\Consultorio_Legal\Consultorio_Legal\bin\Debug\net9.0\Consultorio_Legal.runtimeconfig.json
 B:\Documents\GitHub\Consultorio_Legal\Consultorio_Legal\bin\Debug\net9.0\Consultorio_Legal.dll
 B:\Documents\GitHub\Consultorio_Legal\Consultorio_Legal\bin\Debug\net9.0\Consultorio_Legal.pdb
+B:\Documents\GitHub\Consultorio_Legal\Consultorio_Legal\bin\Debug\net9.0\AutoMapper.dll
+B:\Documents\GitHub\Consultorio_Legal\Consultorio_Legal\bin\Debug\net9.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 B:\Documents\GitHub\Consultorio_Legal\Consultorio_Legal\bin\Debug\net9.0\Azure.Core.dll
 B:\Documents\GitHub\Consultorio_Legal\Consultorio_Legal\bin\Debug\net9.0\Azure.Identity.dll
 B:\Documents\GitHub\Consultorio_Legal\Consultorio_Legal\bin\Debug\net9.0\FluentValidation.dll
@@ -151,10 +153,12 @@ B:\Documents\GitHub\Consultorio_Legal\Consultorio_Legal\bin\Debug\net9.0\runtime
 B:\Documents\GitHub\Consultorio_Legal\Consultorio_Legal\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
 B:\Documents\GitHub\Consultorio_Legal\Consultorio_Legal\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
 B:\Documents\GitHub\Consultorio_Legal\Consultorio_Legal\bin\Debug\net9.0\Core.dll
+B:\Documents\GitHub\Consultorio_Legal\Consultorio_Legal\bin\Debug\net9.0\Core.Shared.dll
 B:\Documents\GitHub\Consultorio_Legal\Consultorio_Legal\bin\Debug\net9.0\Data.dll
 B:\Documents\GitHub\Consultorio_Legal\Consultorio_Legal\bin\Debug\net9.0\Manager.dll
 B:\Documents\GitHub\Consultorio_Legal\Consultorio_Legal\bin\Debug\net9.0\Core.pdb
 B:\Documents\GitHub\Consultorio_Legal\Consultorio_Legal\bin\Debug\net9.0\Data.pdb
+B:\Documents\GitHub\Consultorio_Legal\Consultorio_Legal\bin\Debug\net9.0\Core.Shared.pdb
 B:\Documents\GitHub\Consultorio_Legal\Consultorio_Legal\bin\Debug\net9.0\Manager.pdb
 B:\Documents\GitHub\Consultorio_Legal\Consultorio_Legal\obj\Debug\net9.0\Consultorio_Legal.csproj.AssemblyReference.cache
 B:\Documents\GitHub\Consultorio_Legal\Consultorio_Legal\obj\Debug\net9.0\Consultorio_Legal.GeneratedMSBuildEditorConfig.editorconfig

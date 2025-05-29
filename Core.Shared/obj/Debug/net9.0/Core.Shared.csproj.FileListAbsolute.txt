@@ -1,0 +1,12 @@
+B:\Documents\GitHub\Consultorio_Legal\Core.Shared\bin\Debug\net9.0\Core.Shared.deps.json
+B:\Documents\GitHub\Consultorio_Legal\Core.Shared\bin\Debug\net9.0\Core.Shared.dll
+B:\Documents\GitHub\Consultorio_Legal\Core.Shared\bin\Debug\net9.0\Core.Shared.pdb
+B:\Documents\GitHub\Consultorio_Legal\Core.Shared\obj\Debug\net9.0\Core.Shared.GeneratedMSBuildEditorConfig.editorconfig
+B:\Documents\GitHub\Consultorio_Legal\Core.Shared\obj\Debug\net9.0\Core.Shared.AssemblyInfoInputs.cache
+B:\Documents\GitHub\Consultorio_Legal\Core.Shared\obj\Debug\net9.0\Core.Shared.AssemblyInfo.cs
+B:\Documents\GitHub\Consultorio_Legal\Core.Shared\obj\Debug\net9.0\Core.Shared.csproj.CoreCompileInputs.cache
+B:\Documents\GitHub\Consultorio_Legal\Core.Shared\obj\Debug\net9.0\Core.Shared.sourcelink.json
+B:\Documents\GitHub\Consultorio_Legal\Core.Shared\obj\Debug\net9.0\Core.Shared.dll
+B:\Documents\GitHub\Consultorio_Legal\Core.Shared\obj\Debug\net9.0\refint\Core.Shared.dll
+B:\Documents\GitHub\Consultorio_Legal\Core.Shared\obj\Debug\net9.0\Core.Shared.pdb
+B:\Documents\GitHub\Consultorio_Legal\Core.Shared\obj\Debug\net9.0\ref\Core.Shared.dll
