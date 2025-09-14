@@ -1,67 +1,48 @@
-using System.Globalization;
+
+using Consultorio_Legal.Configuration;
 using Data.Context;
-using Data.Repository;
-using FluentValidation.AspNetCore;
-using Manager;
-using Manager.Implementation;
-using Manager.Mappings; 
-using Manager.Validator;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.OpenApi.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 
-builder.Services.AddControllers().AddFluentValidation(v => 
-    {
-        v.RegisterValidatorsFromAssemblyContaining<NovoClienteValidator>();
-        v.RegisterValidatorsFromAssemblyContaining<AlteraClienteValidator>();
-        v.ValidatorOptions.LanguageManager.Culture = new CultureInfo("PT-BR");
-    }
-);
+builder.Services.AddControllers();
 
-builder.Services.AddAutoMapper(typeof(NovoClienteMappingProfile), typeof(AlteraClienteMappingProfile));
+builder.Services.AddFluentValidationConfiguration();
+
+builder.Services.UseAutoMapperConfiguration();
 
 builder.Services.AddDbContext<ClContext>(
     options => options.UseSqlServer(builder.Configuration.GetConnectionString("ClConnection"))
 );
 
-builder.Services.AddScoped<IClienteRepository, ClienteRepository>();
-
-builder.Services.AddScoped<IClienteManager, ClienteManager>();
+builder.Services.UseDepencyInjectorConfiguration();
 
 builder.Services.AddEndpointsApiExplorer();
 
-builder.Services.AddSwaggerGen(
-    c =>{
-        c.SwaggerDoc("v1", new OpenApiInfo 
-        {
-            Title="API Consultorio Legal",
-            Version="v1"
-        });
-    }
-);
+builder.Services.AddSwaggerConfiguration();
 
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
+    app.UseSwaggerConfiguration();
     app.UseDeveloperExceptionPage();
 }
 
 app.MapControllers();
 
-app.UseSwagger();
+// Serve os arquivos de React
+// app.UseDefaultFiles(); // busca o index.html
+// app.UseStaticFiles(); // serve tudo de wwwroot
 
-app.UseSwaggerUI(
-    c => {
-        c.RoutePrefix = string.Empty;
-        c.SwaggerEndpoint("/swagger/v1/swagger.json","v1");
-    }
-);
+// Fallback para SPA: qualquer rota não-API vai para index.html
+// app.MapFallbackToFile("futcrente/index.html");
+
+app.UseSwaggerConfiguration();
 
 // app.UseHttpsRedirection();
 
 // app.UseAuthentication();
 
-app.Run();
+app.Run("http://0.0.0.0:7000");

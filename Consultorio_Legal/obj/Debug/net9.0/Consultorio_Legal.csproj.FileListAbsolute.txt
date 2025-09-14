@@ -1,11 +1,13 @@
 B:\Documents\GitHub\Consultorio_Legal\Consultorio_Legal\bin\Debug\net9.0\appsettings.Development.json
 B:\Documents\GitHub\Consultorio_Legal\Consultorio_Legal\bin\Debug\net9.0\appsettings.json
+B:\Documents\GitHub\Consultorio_Legal\Consultorio_Legal\bin\Debug\net9.0\Consultorio_Legal.staticwebassets.runtime.json
 B:\Documents\GitHub\Consultorio_Legal\Consultorio_Legal\bin\Debug\net9.0\Consultorio_Legal.staticwebassets.endpoints.json
 B:\Documents\GitHub\Consultorio_Legal\Consultorio_Legal\bin\Debug\net9.0\Consultorio_Legal.exe
 B:\Documents\GitHub\Consultorio_Legal\Consultorio_Legal\bin\Debug\net9.0\Consultorio_Legal.deps.json
 B:\Documents\GitHub\Consultorio_Legal\Consultorio_Legal\bin\Debug\net9.0\Consultorio_Legal.runtimeconfig.json
 B:\Documents\GitHub\Consultorio_Legal\Consultorio_Legal\bin\Debug\net9.0\Consultorio_Legal.dll
 B:\Documents\GitHub\Consultorio_Legal\Consultorio_Legal\bin\Debug\net9.0\Consultorio_Legal.pdb
+B:\Documents\GitHub\Consultorio_Legal\Consultorio_Legal\bin\Debug\net9.0\Consultorio_Legal.xml
 B:\Documents\GitHub\Consultorio_Legal\Consultorio_Legal\bin\Debug\net9.0\AutoMapper.dll
 B:\Documents\GitHub\Consultorio_Legal\Consultorio_Legal\bin\Debug\net9.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 B:\Documents\GitHub\Consultorio_Legal\Consultorio_Legal\bin\Debug\net9.0\Azure.Core.dll
@@ -169,6 +171,10 @@ B:\Documents\GitHub\Consultorio_Legal\Consultorio_Legal\obj\Debug\net9.0\Consult
 B:\Documents\GitHub\Consultorio_Legal\Consultorio_Legal\obj\Debug\net9.0\Consultorio_Legal.MvcApplicationPartsAssemblyInfo.cache
 B:\Documents\GitHub\Consultorio_Legal\Consultorio_Legal\obj\Debug\net9.0\Consultorio_Legal.sourcelink.json
 B:\Documents\GitHub\Consultorio_Legal\Consultorio_Legal\obj\Debug\net9.0\scopedcss\bundle\Consultorio_Legal.styles.css
+B:\Documents\GitHub\Consultorio_Legal\Consultorio_Legal\obj\Debug\net9.0\compressed\jjbmut8wr4-tdwioxqzgr.gz
+B:\Documents\GitHub\Consultorio_Legal\Consultorio_Legal\obj\Debug\net9.0\compressed\507q6z5edn-tyh8ydy1z3.gz
+B:\Documents\GitHub\Consultorio_Legal\Consultorio_Legal\obj\Debug\net9.0\compressed\qn1sfk9tdw-7trw0vijr1.gz
+B:\Documents\GitHub\Consultorio_Legal\Consultorio_Legal\obj\Debug\net9.0\compressed\prc5bs5j1g-v005hlik8l.gz
 B:\Documents\GitHub\Consultorio_Legal\Consultorio_Legal\obj\Debug\net9.0\staticwebassets.build.json
 B:\Documents\GitHub\Consultorio_Legal\Consultorio_Legal\obj\Debug\net9.0\staticwebassets.development.json
 B:\Documents\GitHub\Consultorio_Legal\Consultorio_Legal\obj\Debug\net9.0\staticwebassets.build.endpoints.json

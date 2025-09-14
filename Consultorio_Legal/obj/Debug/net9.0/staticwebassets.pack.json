@@ -1,0 +1,41 @@
+{
+  "Files": [
+    {
+      "Id": "B:\\Documents\\GitHub\\Consultorio_Legal\\Consultorio_Legal\\wwwroot\\futcrente\\assets\\index-BClemjb6.js",
+      "PackagePath": "staticwebassets\\futcrente\\assets\\index-BClemjb6.js"
+    },
+    {
+      "Id": "B:\\Documents\\GitHub\\Consultorio_Legal\\Consultorio_Legal\\wwwroot\\futcrente\\assets\\index-D8b4DHJx.css",
+      "PackagePath": "staticwebassets\\futcrente\\assets\\index-D8b4DHJx.css"
+    },
+    {
+      "Id": "B:\\Documents\\GitHub\\Consultorio_Legal\\Consultorio_Legal\\wwwroot\\futcrente\\assets\\react-CHdo91hT.svg",
+      "PackagePath": "staticwebassets\\futcrente\\assets\\react-CHdo91hT.svg"
+    },
+    {
+      "Id": "B:\\Documents\\GitHub\\Consultorio_Legal\\Consultorio_Legal\\wwwroot\\futcrente\\index.html",
+      "PackagePath": "staticwebassets\\futcrente\\index.html"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.Consultorio_Legal.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.Consultorio_Legal.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.build.Consultorio_Legal.props",
+      "PackagePath": "build\\Consultorio_Legal.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildMultiTargeting.Consultorio_Legal.props",
+      "PackagePath": "buildMultiTargeting\\Consultorio_Legal.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildTransitive.Consultorio_Legal.props",
+      "PackagePath": "buildTransitive\\Consultorio_Legal.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

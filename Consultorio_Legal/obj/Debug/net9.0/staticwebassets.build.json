@@ -1,12 +1,1382 @@
 {
   "Version": 1,
-  "Hash": "vfJXD85GUxO9HJVOckV2ZgCaYpfWzYAFXBvjz0+PTAo=",
+  "Hash": "9o9BEDqIxFBbasXlNNHzfwiq6QCpaXvnsQix1yhDGLY=",
   "Source": "Consultorio_Legal",
   "BasePath": "_content/Consultorio_Legal",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
-  "Assets": [],
-  "Endpoints": []
+  "DiscoveryPatterns": [
+    {
+      "Name": "Consultorio_Legal\\wwwroot",
+      "Source": "Consultorio_Legal",
+      "ContentRoot": "B:\\Documents\\GitHub\\Consultorio_Legal\\Consultorio_Legal\\wwwroot\\",
+      "BasePath": "_content/Consultorio_Legal",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "B:\\Documents\\GitHub\\Consultorio_Legal\\Consultorio_Legal\\obj\\Debug\\net9.0\\compressed\\507q6z5edn-tyh8ydy1z3.gz",
+      "SourceId": "Consultorio_Legal",
+      "SourceType": "Discovered",
+      "ContentRoot": "B:\\Documents\\GitHub\\Consultorio_Legal\\Consultorio_Legal\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/Consultorio_Legal",
+      "RelativePath": "futcrente/assets/index-D8b4DHJx#[.{fingerprint=tyh8ydy1z3}]?.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "B:\\Documents\\GitHub\\Consultorio_Legal\\Consultorio_Legal\\wwwroot\\futcrente\\assets\\index-D8b4DHJx.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "2u5lz12i2t",
+      "Integrity": "NqiA7u8lKOnFEP97qV/TSOWBK1YcJUzoSfBaFpxAEH8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "B:\\Documents\\GitHub\\Consultorio_Legal\\Consultorio_Legal\\wwwroot\\futcrente\\assets\\index-D8b4DHJx.css"
+    },
+    {
+      "Identity": "B:\\Documents\\GitHub\\Consultorio_Legal\\Consultorio_Legal\\obj\\Debug\\net9.0\\compressed\\jjbmut8wr4-tdwioxqzgr.gz",
+      "SourceId": "Consultorio_Legal",
+      "SourceType": "Discovered",
+      "ContentRoot": "B:\\Documents\\GitHub\\Consultorio_Legal\\Consultorio_Legal\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/Consultorio_Legal",
+      "RelativePath": "futcrente/assets/index-BClemjb6#[.{fingerprint=tdwioxqzgr}]?.js.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "B:\\Documents\\GitHub\\Consultorio_Legal\\Consultorio_Legal\\wwwroot\\futcrente\\assets\\index-BClemjb6.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "7aqpwyn1r1",
+      "Integrity": "T+nXtlVghQxGPFMYYdzBRMshOU/o49FdcNBodqLgmG0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "B:\\Documents\\GitHub\\Consultorio_Legal\\Consultorio_Legal\\wwwroot\\futcrente\\assets\\index-BClemjb6.js"
+    },
+    {
+      "Identity": "B:\\Documents\\GitHub\\Consultorio_Legal\\Consultorio_Legal\\obj\\Debug\\net9.0\\compressed\\prc5bs5j1g-v005hlik8l.gz",
+      "SourceId": "Consultorio_Legal",
+      "SourceType": "Discovered",
+      "ContentRoot": "B:\\Documents\\GitHub\\Consultorio_Legal\\Consultorio_Legal\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/Consultorio_Legal",
+      "RelativePath": "futcrente/index#[.{fingerprint=v005hlik8l}]?.html.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "B:\\Documents\\GitHub\\Consultorio_Legal\\Consultorio_Legal\\wwwroot\\futcrente\\index.html",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "aeahd49ud0",
+      "Integrity": "4hs030HXIFI8e34W66s0iosWjgtPgzD2wTHvp4kwreQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "B:\\Documents\\GitHub\\Consultorio_Legal\\Consultorio_Legal\\wwwroot\\futcrente\\index.html"
+    },
+    {
+      "Identity": "B:\\Documents\\GitHub\\Consultorio_Legal\\Consultorio_Legal\\obj\\Debug\\net9.0\\compressed\\qn1sfk9tdw-7trw0vijr1.gz",
+      "SourceId": "Consultorio_Legal",
+      "SourceType": "Discovered",
+      "ContentRoot": "B:\\Documents\\GitHub\\Consultorio_Legal\\Consultorio_Legal\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/Consultorio_Legal",
+      "RelativePath": "futcrente/assets/react-CHdo91hT#[.{fingerprint=7trw0vijr1}]?.svg.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "B:\\Documents\\GitHub\\Consultorio_Legal\\Consultorio_Legal\\wwwroot\\futcrente\\assets\\react-CHdo91hT.svg",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "35afxytzhz",
+      "Integrity": "6QUJzD/z023TOYbKCg9Gg52HJBfDSSVfwkZ8GfIrspM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "B:\\Documents\\GitHub\\Consultorio_Legal\\Consultorio_Legal\\wwwroot\\futcrente\\assets\\react-CHdo91hT.svg"
+    },
+    {
+      "Identity": "B:\\Documents\\GitHub\\Consultorio_Legal\\Consultorio_Legal\\wwwroot\\futcrente\\assets\\index-BClemjb6.js",
+      "SourceId": "Consultorio_Legal",
+      "SourceType": "Discovered",
+      "ContentRoot": "B:\\Documents\\GitHub\\Consultorio_Legal\\Consultorio_Legal\\wwwroot\\",
+      "BasePath": "_content/Consultorio_Legal",
+      "RelativePath": "futcrente/assets/index-BClemjb6#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "tdwioxqzgr",
+      "Integrity": "cRBaBR1Bid9i0jrfBYXQjawnMuSa5nSNCrU1mLxpM2w=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\futcrente\\assets\\index-BClemjb6.js"
+    },
+    {
+      "Identity": "B:\\Documents\\GitHub\\Consultorio_Legal\\Consultorio_Legal\\wwwroot\\futcrente\\assets\\index-D8b4DHJx.css",
+      "SourceId": "Consultorio_Legal",
+      "SourceType": "Discovered",
+      "ContentRoot": "B:\\Documents\\GitHub\\Consultorio_Legal\\Consultorio_Legal\\wwwroot\\",
+      "BasePath": "_content/Consultorio_Legal",
+      "RelativePath": "futcrente/assets/index-D8b4DHJx#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "tyh8ydy1z3",
+      "Integrity": "C93KjtBnMCaIdWVIcHbrBsOg72me6/gEIIHdxlo+Rqw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\futcrente\\assets\\index-D8b4DHJx.css"
+    },
+    {
+      "Identity": "B:\\Documents\\GitHub\\Consultorio_Legal\\Consultorio_Legal\\wwwroot\\futcrente\\assets\\react-CHdo91hT.svg",
+      "SourceId": "Consultorio_Legal",
+      "SourceType": "Discovered",
+      "ContentRoot": "B:\\Documents\\GitHub\\Consultorio_Legal\\Consultorio_Legal\\wwwroot\\",
+      "BasePath": "_content/Consultorio_Legal",
+      "RelativePath": "futcrente/assets/react-CHdo91hT#[.{fingerprint}]?.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "7trw0vijr1",
+      "Integrity": "Ne9h7VOzI66UoWqOxlmz0K84gGmHkRM/I7CECFqxwuU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\futcrente\\assets\\react-CHdo91hT.svg"
+    },
+    {
+      "Identity": "B:\\Documents\\GitHub\\Consultorio_Legal\\Consultorio_Legal\\wwwroot\\futcrente\\index.html",
+      "SourceId": "Consultorio_Legal",
+      "SourceType": "Discovered",
+      "ContentRoot": "B:\\Documents\\GitHub\\Consultorio_Legal\\Consultorio_Legal\\wwwroot\\",
+      "BasePath": "_content/Consultorio_Legal",
+      "RelativePath": "futcrente/index#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "v005hlik8l",
+      "Integrity": "X9TOLJlLle0DXmkx/iZ+gJE9wniXnEWjUPXcVx57/6s=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\futcrente\\index.html"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "futcrente/assets/index-BClemjb6.js",
+      "AssetFile": "B:\\Documents\\GitHub\\Consultorio_Legal\\Consultorio_Legal\\obj\\Debug\\net9.0\\compressed\\jjbmut8wr4-tdwioxqzgr.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000016436555"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "60839"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"T+nXtlVghQxGPFMYYdzBRMshOU/o49FdcNBodqLgmG0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 05 Jul 2025 19:32:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"cRBaBR1Bid9i0jrfBYXQjawnMuSa5nSNCrU1mLxpM2w=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-cRBaBR1Bid9i0jrfBYXQjawnMuSa5nSNCrU1mLxpM2w="
+        }
+      ]
+    },
+    {
+      "Route": "futcrente/assets/index-BClemjb6.js",
+      "AssetFile": "B:\\Documents\\GitHub\\Consultorio_Legal\\Consultorio_Legal\\wwwroot\\futcrente\\assets\\index-BClemjb6.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "189929"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cRBaBR1Bid9i0jrfBYXQjawnMuSa5nSNCrU1mLxpM2w=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 05 Jul 2025 19:32:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-cRBaBR1Bid9i0jrfBYXQjawnMuSa5nSNCrU1mLxpM2w="
+        }
+      ]
+    },
+    {
+      "Route": "futcrente/assets/index-BClemjb6.js.gz",
+      "AssetFile": "B:\\Documents\\GitHub\\Consultorio_Legal\\Consultorio_Legal\\obj\\Debug\\net9.0\\compressed\\jjbmut8wr4-tdwioxqzgr.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "60839"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"T+nXtlVghQxGPFMYYdzBRMshOU/o49FdcNBodqLgmG0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 05 Jul 2025 19:32:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-T+nXtlVghQxGPFMYYdzBRMshOU/o49FdcNBodqLgmG0="
+        }
+      ]
+    },
+    {
+      "Route": "futcrente/assets/index-BClemjb6.tdwioxqzgr.js",
+      "AssetFile": "B:\\Documents\\GitHub\\Consultorio_Legal\\Consultorio_Legal\\obj\\Debug\\net9.0\\compressed\\jjbmut8wr4-tdwioxqzgr.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000016436555"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "60839"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"T+nXtlVghQxGPFMYYdzBRMshOU/o49FdcNBodqLgmG0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 05 Jul 2025 19:32:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"cRBaBR1Bid9i0jrfBYXQjawnMuSa5nSNCrU1mLxpM2w=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "tdwioxqzgr"
+        },
+        {
+          "Name": "label",
+          "Value": "futcrente/assets/index-BClemjb6.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-cRBaBR1Bid9i0jrfBYXQjawnMuSa5nSNCrU1mLxpM2w="
+        }
+      ]
+    },
+    {
+      "Route": "futcrente/assets/index-BClemjb6.tdwioxqzgr.js",
+      "AssetFile": "B:\\Documents\\GitHub\\Consultorio_Legal\\Consultorio_Legal\\wwwroot\\futcrente\\assets\\index-BClemjb6.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "189929"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cRBaBR1Bid9i0jrfBYXQjawnMuSa5nSNCrU1mLxpM2w=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 05 Jul 2025 19:32:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "tdwioxqzgr"
+        },
+        {
+          "Name": "label",
+          "Value": "futcrente/assets/index-BClemjb6.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-cRBaBR1Bid9i0jrfBYXQjawnMuSa5nSNCrU1mLxpM2w="
+        }
+      ]
+    },
+    {
+      "Route": "futcrente/assets/index-BClemjb6.tdwioxqzgr.js.gz",
+      "AssetFile": "B:\\Documents\\GitHub\\Consultorio_Legal\\Consultorio_Legal\\obj\\Debug\\net9.0\\compressed\\jjbmut8wr4-tdwioxqzgr.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "60839"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"T+nXtlVghQxGPFMYYdzBRMshOU/o49FdcNBodqLgmG0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 05 Jul 2025 19:32:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "tdwioxqzgr"
+        },
+        {
+          "Name": "label",
+          "Value": "futcrente/assets/index-BClemjb6.js.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-T+nXtlVghQxGPFMYYdzBRMshOU/o49FdcNBodqLgmG0="
+        }
+      ]
+    },
+    {
+      "Route": "futcrente/assets/index-D8b4DHJx.css",
+      "AssetFile": "B:\\Documents\\GitHub\\Consultorio_Legal\\Consultorio_Legal\\obj\\Debug\\net9.0\\compressed\\507q6z5edn-tyh8ydy1z3.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001416430595"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "705"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"NqiA7u8lKOnFEP97qV/TSOWBK1YcJUzoSfBaFpxAEH8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 05 Jul 2025 19:32:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"C93KjtBnMCaIdWVIcHbrBsOg72me6/gEIIHdxlo+Rqw=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-C93KjtBnMCaIdWVIcHbrBsOg72me6/gEIIHdxlo+Rqw="
+        }
+      ]
+    },
+    {
+      "Route": "futcrente/assets/index-D8b4DHJx.css",
+      "AssetFile": "B:\\Documents\\GitHub\\Consultorio_Legal\\Consultorio_Legal\\wwwroot\\futcrente\\assets\\index-D8b4DHJx.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1385"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"C93KjtBnMCaIdWVIcHbrBsOg72me6/gEIIHdxlo+Rqw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 05 Jul 2025 19:32:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-C93KjtBnMCaIdWVIcHbrBsOg72me6/gEIIHdxlo+Rqw="
+        }
+      ]
+    },
+    {
+      "Route": "futcrente/assets/index-D8b4DHJx.css.gz",
+      "AssetFile": "B:\\Documents\\GitHub\\Consultorio_Legal\\Consultorio_Legal\\obj\\Debug\\net9.0\\compressed\\507q6z5edn-tyh8ydy1z3.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "705"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"NqiA7u8lKOnFEP97qV/TSOWBK1YcJUzoSfBaFpxAEH8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 05 Jul 2025 19:32:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-NqiA7u8lKOnFEP97qV/TSOWBK1YcJUzoSfBaFpxAEH8="
+        }
+      ]
+    },
+    {
+      "Route": "futcrente/assets/index-D8b4DHJx.tyh8ydy1z3.css",
+      "AssetFile": "B:\\Documents\\GitHub\\Consultorio_Legal\\Consultorio_Legal\\obj\\Debug\\net9.0\\compressed\\507q6z5edn-tyh8ydy1z3.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001416430595"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "705"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"NqiA7u8lKOnFEP97qV/TSOWBK1YcJUzoSfBaFpxAEH8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 05 Jul 2025 19:32:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"C93KjtBnMCaIdWVIcHbrBsOg72me6/gEIIHdxlo+Rqw=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "tyh8ydy1z3"
+        },
+        {
+          "Name": "label",
+          "Value": "futcrente/assets/index-D8b4DHJx.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-C93KjtBnMCaIdWVIcHbrBsOg72me6/gEIIHdxlo+Rqw="
+        }
+      ]
+    },
+    {
+      "Route": "futcrente/assets/index-D8b4DHJx.tyh8ydy1z3.css",
+      "AssetFile": "B:\\Documents\\GitHub\\Consultorio_Legal\\Consultorio_Legal\\wwwroot\\futcrente\\assets\\index-D8b4DHJx.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1385"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"C93KjtBnMCaIdWVIcHbrBsOg72me6/gEIIHdxlo+Rqw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 05 Jul 2025 19:32:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "tyh8ydy1z3"
+        },
+        {
+          "Name": "label",
+          "Value": "futcrente/assets/index-D8b4DHJx.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-C93KjtBnMCaIdWVIcHbrBsOg72me6/gEIIHdxlo+Rqw="
+        }
+      ]
+    },
+    {
+      "Route": "futcrente/assets/index-D8b4DHJx.tyh8ydy1z3.css.gz",
+      "AssetFile": "B:\\Documents\\GitHub\\Consultorio_Legal\\Consultorio_Legal\\obj\\Debug\\net9.0\\compressed\\507q6z5edn-tyh8ydy1z3.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "705"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"NqiA7u8lKOnFEP97qV/TSOWBK1YcJUzoSfBaFpxAEH8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 05 Jul 2025 19:32:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "tyh8ydy1z3"
+        },
+        {
+          "Name": "label",
+          "Value": "futcrente/assets/index-D8b4DHJx.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-NqiA7u8lKOnFEP97qV/TSOWBK1YcJUzoSfBaFpxAEH8="
+        }
+      ]
+    },
+    {
+      "Route": "futcrente/assets/react-CHdo91hT.7trw0vijr1.svg",
+      "AssetFile": "B:\\Documents\\GitHub\\Consultorio_Legal\\Consultorio_Legal\\obj\\Debug\\net9.0\\compressed\\qn1sfk9tdw-7trw0vijr1.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000484730974"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2062"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"6QUJzD/z023TOYbKCg9Gg52HJBfDSSVfwkZ8GfIrspM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 05 Jul 2025 19:32:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"Ne9h7VOzI66UoWqOxlmz0K84gGmHkRM/I7CECFqxwuU=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "7trw0vijr1"
+        },
+        {
+          "Name": "label",
+          "Value": "futcrente/assets/react-CHdo91hT.svg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Ne9h7VOzI66UoWqOxlmz0K84gGmHkRM/I7CECFqxwuU="
+        }
+      ]
+    },
+    {
+      "Route": "futcrente/assets/react-CHdo91hT.7trw0vijr1.svg",
+      "AssetFile": "B:\\Documents\\GitHub\\Consultorio_Legal\\Consultorio_Legal\\wwwroot\\futcrente\\assets\\react-CHdo91hT.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4126"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Ne9h7VOzI66UoWqOxlmz0K84gGmHkRM/I7CECFqxwuU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 05 Jul 2025 19:32:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "7trw0vijr1"
+        },
+        {
+          "Name": "label",
+          "Value": "futcrente/assets/react-CHdo91hT.svg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Ne9h7VOzI66UoWqOxlmz0K84gGmHkRM/I7CECFqxwuU="
+        }
+      ]
+    },
+    {
+      "Route": "futcrente/assets/react-CHdo91hT.7trw0vijr1.svg.gz",
+      "AssetFile": "B:\\Documents\\GitHub\\Consultorio_Legal\\Consultorio_Legal\\obj\\Debug\\net9.0\\compressed\\qn1sfk9tdw-7trw0vijr1.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2062"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"6QUJzD/z023TOYbKCg9Gg52HJBfDSSVfwkZ8GfIrspM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 05 Jul 2025 19:32:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "7trw0vijr1"
+        },
+        {
+          "Name": "label",
+          "Value": "futcrente/assets/react-CHdo91hT.svg.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-6QUJzD/z023TOYbKCg9Gg52HJBfDSSVfwkZ8GfIrspM="
+        }
+      ]
+    },
+    {
+      "Route": "futcrente/assets/react-CHdo91hT.svg",
+      "AssetFile": "B:\\Documents\\GitHub\\Consultorio_Legal\\Consultorio_Legal\\obj\\Debug\\net9.0\\compressed\\qn1sfk9tdw-7trw0vijr1.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000484730974"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2062"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"6QUJzD/z023TOYbKCg9Gg52HJBfDSSVfwkZ8GfIrspM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 05 Jul 2025 19:32:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"Ne9h7VOzI66UoWqOxlmz0K84gGmHkRM/I7CECFqxwuU=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Ne9h7VOzI66UoWqOxlmz0K84gGmHkRM/I7CECFqxwuU="
+        }
+      ]
+    },
+    {
+      "Route": "futcrente/assets/react-CHdo91hT.svg",
+      "AssetFile": "B:\\Documents\\GitHub\\Consultorio_Legal\\Consultorio_Legal\\wwwroot\\futcrente\\assets\\react-CHdo91hT.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4126"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Ne9h7VOzI66UoWqOxlmz0K84gGmHkRM/I7CECFqxwuU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 05 Jul 2025 19:32:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Ne9h7VOzI66UoWqOxlmz0K84gGmHkRM/I7CECFqxwuU="
+        }
+      ]
+    },
+    {
+      "Route": "futcrente/assets/react-CHdo91hT.svg.gz",
+      "AssetFile": "B:\\Documents\\GitHub\\Consultorio_Legal\\Consultorio_Legal\\obj\\Debug\\net9.0\\compressed\\qn1sfk9tdw-7trw0vijr1.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2062"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"6QUJzD/z023TOYbKCg9Gg52HJBfDSSVfwkZ8GfIrspM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 05 Jul 2025 19:32:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-6QUJzD/z023TOYbKCg9Gg52HJBfDSSVfwkZ8GfIrspM="
+        }
+      ]
+    },
+    {
+      "Route": "futcrente/index.html",
+      "AssetFile": "B:\\Documents\\GitHub\\Consultorio_Legal\\Consultorio_Legal\\obj\\Debug\\net9.0\\compressed\\prc5bs5j1g-v005hlik8l.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.003215434084"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "310"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4hs030HXIFI8e34W66s0iosWjgtPgzD2wTHvp4kwreQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 05 Jul 2025 19:32:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"X9TOLJlLle0DXmkx/iZ+gJE9wniXnEWjUPXcVx57/6s=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-X9TOLJlLle0DXmkx/iZ+gJE9wniXnEWjUPXcVx57/6s="
+        }
+      ]
+    },
+    {
+      "Route": "futcrente/index.html",
+      "AssetFile": "B:\\Documents\\GitHub\\Consultorio_Legal\\Consultorio_Legal\\wwwroot\\futcrente\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "484"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"X9TOLJlLle0DXmkx/iZ+gJE9wniXnEWjUPXcVx57/6s=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 05 Jul 2025 19:32:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-X9TOLJlLle0DXmkx/iZ+gJE9wniXnEWjUPXcVx57/6s="
+        }
+      ]
+    },
+    {
+      "Route": "futcrente/index.html.gz",
+      "AssetFile": "B:\\Documents\\GitHub\\Consultorio_Legal\\Consultorio_Legal\\obj\\Debug\\net9.0\\compressed\\prc5bs5j1g-v005hlik8l.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "310"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4hs030HXIFI8e34W66s0iosWjgtPgzD2wTHvp4kwreQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 05 Jul 2025 19:32:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-4hs030HXIFI8e34W66s0iosWjgtPgzD2wTHvp4kwreQ="
+        }
+      ]
+    },
+    {
+      "Route": "futcrente/index.v005hlik8l.html",
+      "AssetFile": "B:\\Documents\\GitHub\\Consultorio_Legal\\Consultorio_Legal\\obj\\Debug\\net9.0\\compressed\\prc5bs5j1g-v005hlik8l.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.003215434084"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "310"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4hs030HXIFI8e34W66s0iosWjgtPgzD2wTHvp4kwreQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 05 Jul 2025 19:32:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"X9TOLJlLle0DXmkx/iZ+gJE9wniXnEWjUPXcVx57/6s=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "v005hlik8l"
+        },
+        {
+          "Name": "label",
+          "Value": "futcrente/index.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-X9TOLJlLle0DXmkx/iZ+gJE9wniXnEWjUPXcVx57/6s="
+        }
+      ]
+    },
+    {
+      "Route": "futcrente/index.v005hlik8l.html",
+      "AssetFile": "B:\\Documents\\GitHub\\Consultorio_Legal\\Consultorio_Legal\\wwwroot\\futcrente\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "484"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"X9TOLJlLle0DXmkx/iZ+gJE9wniXnEWjUPXcVx57/6s=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 05 Jul 2025 19:32:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "v005hlik8l"
+        },
+        {
+          "Name": "label",
+          "Value": "futcrente/index.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-X9TOLJlLle0DXmkx/iZ+gJE9wniXnEWjUPXcVx57/6s="
+        }
+      ]
+    },
+    {
+      "Route": "futcrente/index.v005hlik8l.html.gz",
+      "AssetFile": "B:\\Documents\\GitHub\\Consultorio_Legal\\Consultorio_Legal\\obj\\Debug\\net9.0\\compressed\\prc5bs5j1g-v005hlik8l.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "310"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4hs030HXIFI8e34W66s0iosWjgtPgzD2wTHvp4kwreQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 05 Jul 2025 19:32:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "v005hlik8l"
+        },
+        {
+          "Name": "label",
+          "Value": "futcrente/index.html.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-4hs030HXIFI8e34W66s0iosWjgtPgzD2wTHvp4kwreQ="
+        }
+      ]
+    }
+  ]
 }

@@ -14,12 +14,14 @@
         "outputPath": "B:\\Documents\\GitHub\\Consultorio_Legal\\Consultorio_Legal\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Rangerson Clemente 1\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Rangerson Clemente 1\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -125,12 +127,14 @@
         "outputPath": "B:\\Documents\\GitHub\\Consultorio_Legal\\Core.Shared\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Rangerson Clemente 1\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Rangerson Clemente 1\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -184,12 +188,14 @@
         "outputPath": "B:\\Documents\\GitHub\\Consultorio_Legal\\Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Rangerson Clemente 1\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Rangerson Clemente 1\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -243,12 +249,14 @@
         "outputPath": "B:\\Documents\\GitHub\\Consultorio_Legal\\Data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Rangerson Clemente 1\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Rangerson Clemente 1\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -336,12 +344,14 @@
         "outputPath": "B:\\Documents\\GitHub\\Consultorio_Legal\\Manager\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Rangerson Clemente 1\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Rangerson Clemente 1\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {

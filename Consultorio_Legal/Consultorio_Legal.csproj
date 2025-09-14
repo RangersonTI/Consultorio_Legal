@@ -1,9 +1,16 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <TargetFramework>net9.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <DocumentationFile>
+      B:\Documents\GitHub\Consultorio_Legal\Consultorio_Legal\Consultorio_Legal.xml
+    </DocumentationFile>
+    <NoWarn>1701,1702,1591</NoWarn>
   </PropertyGroup>
 
   <ItemGroup>

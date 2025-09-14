@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Consultorio_Legal</name>
+    </assembly>
+    <members>
+        <member name="M:Consultorio_Legal.Controller.ClientesController.Get">
+            <summary>
+             Retorna todos os clientes cadastrados na base de dados.
+            </summary>
+        </member>
+        <member name="M:Consultorio_Legal.Controller.ClientesController.Get(System.Int32)">
+            <summary>
+                Retorna o cliente com base no Id.
+            </summary>
+            <param name="id"></param>
+        </member>
+        <member name="M:Consultorio_Legal.Controller.ClientesController.Post(Core.Shared.ModelViews.NovoCliente)">
+            <summary>
+                Cadastra um novo cliente!
+            </summary>
+            <param name="novoCliente"></param>
+        </member>
+        <member name="M:Consultorio_Legal.Controller.ClientesController.Put(Core.Shared.ModelViews.AlteraCliente)">
+            <summary>
+                Edita um cliente existente!
+            </summary>
+            <param name="cliente"></param>
+        </member>
+        <member name="M:Consultorio_Legal.Controller.ClientesController.Delete(System.Int32)">
+            <summary>
+                Apaga o cliente com base no Id informado!
+            </summary>
+            <param name="id" example="1"></param>
+        </member>
+    </members>
+</doc>
