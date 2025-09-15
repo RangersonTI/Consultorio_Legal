@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Core.Shared</name>
+    </assembly>
+    <members>
+        <member name="T:Core.Shared.ModelViews.NovoCliente">
+            <summary>
+                Objeto utilizado para inserção de um novo cliente!
+            </summary>
+        </member>
+        <member name="P:Core.Shared.ModelViews.NovoCliente.Nome">
+            <summary>
+                Nome do cliente
+            </summary>
+            <example></example>
+        </member>
+        <member name="P:Core.Shared.ModelViews.NovoCliente.Sexo">
+            <example>M</example>
+        </member>
+        <member name="P:Core.Shared.ModelViews.NovoCliente.Documento">
+            <summary>
+                CPF, RG ou CNH
+            </summary>
+        </member>
+    </members>
+</doc>

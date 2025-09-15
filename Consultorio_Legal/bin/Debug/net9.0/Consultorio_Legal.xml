@@ -29,9 +29,10 @@
         </member>
         <member name="M:Consultorio_Legal.Controller.ClientesController.Delete(System.Int32)">
             <summary>
-                Apaga o cliente com base no Id informado!
+                Exclui o cliente com base no Id informado!
             </summary>
-            <param name="id" example="1"></param>
+            <param name="id" example="1">Id do Cliente</param>
+            <remarks>Ao excluir um cliente, o mesmo será removido da base !</remarks>
         </member>
     </members>
 </doc>

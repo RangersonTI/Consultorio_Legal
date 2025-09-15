@@ -1,28 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "B:\\Documents\\GitHub\\Consultorio_Legal\\Data\\Data.csproj": {}
+    "C:\\Users\\Rangerson Clemente\\Documents\\GitHub\\Consultorio_Legal\\Data\\Data.csproj": {}
   },
   "projects": {
-    "B:\\Documents\\GitHub\\Consultorio_Legal\\Core.Shared\\Core.Shared.csproj": {
+    "C:\\Users\\Rangerson Clemente\\Documents\\GitHub\\Consultorio_Legal\\Core.Shared\\Core.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "B:\\Documents\\GitHub\\Consultorio_Legal\\Core.Shared\\Core.Shared.csproj",
+        "projectUniqueName": "C:\\Users\\Rangerson Clemente\\Documents\\GitHub\\Consultorio_Legal\\Core.Shared\\Core.Shared.csproj",
         "projectName": "Core.Shared",
-        "projectPath": "B:\\Documents\\GitHub\\Consultorio_Legal\\Core.Shared\\Core.Shared.csproj",
-        "packagesPath": "C:\\Users\\Rangerson Clemente 1\\.nuget\\packages\\",
-        "outputPath": "B:\\Documents\\GitHub\\Consultorio_Legal\\Core.Shared\\obj\\",
+        "projectPath": "C:\\Users\\Rangerson Clemente\\Documents\\GitHub\\Consultorio_Legal\\Core.Shared\\Core.Shared.csproj",
+        "packagesPath": "C:\\Users\\Rangerson Clemente\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Rangerson Clemente\\Documents\\GitHub\\Consultorio_Legal\\Core.Shared\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Rangerson Clemente 1\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Rangerson Clemente\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.pkg.github.com/PackagesRadinfoWeb/index.json": {}
         },
         "frameworks": {
           "net9.0": {
@@ -40,7 +39,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.200"
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net9.0": {
@@ -61,29 +60,28 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "B:\\Documents\\GitHub\\Consultorio_Legal\\Core\\Core.csproj": {
+    "C:\\Users\\Rangerson Clemente\\Documents\\GitHub\\Consultorio_Legal\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "B:\\Documents\\GitHub\\Consultorio_Legal\\Core\\Core.csproj",
+        "projectUniqueName": "C:\\Users\\Rangerson Clemente\\Documents\\GitHub\\Consultorio_Legal\\Core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "B:\\Documents\\GitHub\\Consultorio_Legal\\Core\\Core.csproj",
-        "packagesPath": "C:\\Users\\Rangerson Clemente 1\\.nuget\\packages\\",
-        "outputPath": "B:\\Documents\\GitHub\\Consultorio_Legal\\Core\\obj\\",
+        "projectPath": "C:\\Users\\Rangerson Clemente\\Documents\\GitHub\\Consultorio_Legal\\Core\\Core.csproj",
+        "packagesPath": "C:\\Users\\Rangerson Clemente\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Rangerson Clemente\\Documents\\GitHub\\Consultorio_Legal\\Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Rangerson Clemente 1\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Rangerson Clemente\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.pkg.github.com/PackagesRadinfoWeb/index.json": {}
         },
         "frameworks": {
           "net9.0": {
@@ -101,7 +99,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.200"
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net9.0": {
@@ -122,42 +120,41 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "B:\\Documents\\GitHub\\Consultorio_Legal\\Data\\Data.csproj": {
+    "C:\\Users\\Rangerson Clemente\\Documents\\GitHub\\Consultorio_Legal\\Data\\Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "B:\\Documents\\GitHub\\Consultorio_Legal\\Data\\Data.csproj",
+        "projectUniqueName": "C:\\Users\\Rangerson Clemente\\Documents\\GitHub\\Consultorio_Legal\\Data\\Data.csproj",
         "projectName": "Data",
-        "projectPath": "B:\\Documents\\GitHub\\Consultorio_Legal\\Data\\Data.csproj",
-        "packagesPath": "C:\\Users\\Rangerson Clemente 1\\.nuget\\packages\\",
-        "outputPath": "B:\\Documents\\GitHub\\Consultorio_Legal\\Data\\obj\\",
+        "projectPath": "C:\\Users\\Rangerson Clemente\\Documents\\GitHub\\Consultorio_Legal\\Data\\Data.csproj",
+        "packagesPath": "C:\\Users\\Rangerson Clemente\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Rangerson Clemente\\Documents\\GitHub\\Consultorio_Legal\\Data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Rangerson Clemente 1\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Rangerson Clemente\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.pkg.github.com/PackagesRadinfoWeb/index.json": {}
         },
         "frameworks": {
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "B:\\Documents\\GitHub\\Consultorio_Legal\\Core.Shared\\Core.Shared.csproj": {
-                "projectPath": "B:\\Documents\\GitHub\\Consultorio_Legal\\Core.Shared\\Core.Shared.csproj"
+              "C:\\Users\\Rangerson Clemente\\Documents\\GitHub\\Consultorio_Legal\\Core.Shared\\Core.Shared.csproj": {
+                "projectPath": "C:\\Users\\Rangerson Clemente\\Documents\\GitHub\\Consultorio_Legal\\Core.Shared\\Core.Shared.csproj"
               },
-              "B:\\Documents\\GitHub\\Consultorio_Legal\\Core\\Core.csproj": {
-                "projectPath": "B:\\Documents\\GitHub\\Consultorio_Legal\\Core\\Core.csproj"
+              "C:\\Users\\Rangerson Clemente\\Documents\\GitHub\\Consultorio_Legal\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\Rangerson Clemente\\Documents\\GitHub\\Consultorio_Legal\\Core\\Core.csproj"
               },
-              "B:\\Documents\\GitHub\\Consultorio_Legal\\Manager\\Manager.csproj": {
-                "projectPath": "B:\\Documents\\GitHub\\Consultorio_Legal\\Manager\\Manager.csproj"
+              "C:\\Users\\Rangerson Clemente\\Documents\\GitHub\\Consultorio_Legal\\Manager\\Manager.csproj": {
+                "projectPath": "C:\\Users\\Rangerson Clemente\\Documents\\GitHub\\Consultorio_Legal\\Manager\\Manager.csproj"
               }
             }
           }
@@ -172,7 +169,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.200"
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net9.0": {
@@ -217,39 +214,38 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "B:\\Documents\\GitHub\\Consultorio_Legal\\Manager\\Manager.csproj": {
+    "C:\\Users\\Rangerson Clemente\\Documents\\GitHub\\Consultorio_Legal\\Manager\\Manager.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "B:\\Documents\\GitHub\\Consultorio_Legal\\Manager\\Manager.csproj",
+        "projectUniqueName": "C:\\Users\\Rangerson Clemente\\Documents\\GitHub\\Consultorio_Legal\\Manager\\Manager.csproj",
         "projectName": "Manager",
-        "projectPath": "B:\\Documents\\GitHub\\Consultorio_Legal\\Manager\\Manager.csproj",
-        "packagesPath": "C:\\Users\\Rangerson Clemente 1\\.nuget\\packages\\",
-        "outputPath": "B:\\Documents\\GitHub\\Consultorio_Legal\\Manager\\obj\\",
+        "projectPath": "C:\\Users\\Rangerson Clemente\\Documents\\GitHub\\Consultorio_Legal\\Manager\\Manager.csproj",
+        "packagesPath": "C:\\Users\\Rangerson Clemente\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Rangerson Clemente\\Documents\\GitHub\\Consultorio_Legal\\Manager\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Rangerson Clemente 1\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Rangerson Clemente\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.pkg.github.com/PackagesRadinfoWeb/index.json": {}
         },
         "frameworks": {
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "B:\\Documents\\GitHub\\Consultorio_Legal\\Core.Shared\\Core.Shared.csproj": {
-                "projectPath": "B:\\Documents\\GitHub\\Consultorio_Legal\\Core.Shared\\Core.Shared.csproj"
+              "C:\\Users\\Rangerson Clemente\\Documents\\GitHub\\Consultorio_Legal\\Core.Shared\\Core.Shared.csproj": {
+                "projectPath": "C:\\Users\\Rangerson Clemente\\Documents\\GitHub\\Consultorio_Legal\\Core.Shared\\Core.Shared.csproj"
               },
-              "B:\\Documents\\GitHub\\Consultorio_Legal\\Core\\Core.csproj": {
-                "projectPath": "B:\\Documents\\GitHub\\Consultorio_Legal\\Core\\Core.csproj"
+              "C:\\Users\\Rangerson Clemente\\Documents\\GitHub\\Consultorio_Legal\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\Rangerson Clemente\\Documents\\GitHub\\Consultorio_Legal\\Core\\Core.csproj"
               }
             }
           }
@@ -264,7 +260,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.200"
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net9.0": {
@@ -295,7 +291,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

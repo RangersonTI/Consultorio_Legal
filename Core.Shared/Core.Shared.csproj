@@ -6,4 +6,10 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <PropertyGroup>
+    <DocumentationFile>
+      C:\Documents\GitHub\Consultorio_Legal\Consultorio_Legal\Core.Shared.xml
+    </DocumentationFile>
+    <NoWarn>1701,1702,1591</NoWarn>
+  </PropertyGroup>
 </Project>

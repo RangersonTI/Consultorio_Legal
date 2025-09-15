@@ -31,11 +31,10 @@ public static class SwaggerConfig
                 });
 
                 var xmlFile = $"{Assembly.GetExecutingAssembly().GetName().Name}.xml";
-                Console.WriteLine(xmlFile);
+
                 var xmlPath = Path.Combine(AppContext.BaseDirectory, xmlFile);
-                Console.WriteLine(xmlPath);
-
-
+                s.IncludeXmlComments(xmlPath);
+                xmlPath = Path.Combine(AppContext.BaseDirectory, "Core.Shared.xml");
                 s.IncludeXmlComments(xmlPath);
         });
     }

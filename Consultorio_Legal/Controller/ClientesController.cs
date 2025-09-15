@@ -22,6 +22,9 @@ namespace Consultorio_Legal.Controller
         ///  Retorna todos os clientes cadastrados na base de dados.
         /// </summary>
         [HttpGet]
+        [ProducesResponseType(typeof(Cliente), StatusCodes.Status200OK)]
+        [ProducesResponseType(typeof(ProblemDetails), StatusCodes.Status400BadRequest)]
+        [ProducesResponseType(typeof(ProblemDetails), StatusCodes.Status500InternalServerError)]
         public async Task<IActionResult> Get()
         {
 
@@ -33,6 +36,9 @@ namespace Consultorio_Legal.Controller
         /// </summary>
         /// <param name="id"></param>
         [HttpGet("{id}")]
+        [ProducesResponseType(typeof(Cliente),StatusCodes.Status200OK)]
+        [ProducesResponseType(typeof(ProblemDetails),StatusCodes.Status404NotFound)]
+        [ProducesResponseType(typeof(ProblemDetails),StatusCodes.Status500InternalServerError)]
         public async Task<IActionResult> Get(int id)
         {
             return Ok(await clienteManager.GetClienteByIdAsync(id));
@@ -43,6 +49,9 @@ namespace Consultorio_Legal.Controller
         /// </summary>
         /// <param name="novoCliente"></param>
         [HttpPost]
+        [ProducesResponseType(typeof(Cliente),StatusCodes.Status201Created)]
+        [ProducesResponseType(typeof(ProblemDetails),StatusCodes.Status400BadRequest)]
+        [ProducesResponseType(typeof(ProblemDetails),StatusCodes.Status500InternalServerError)]
         public async Task<IActionResult> Post(NovoCliente novoCliente)
         {
             var clienteInserido = await clienteManager.InsertClienteAsync(novoCliente);
@@ -54,6 +63,10 @@ namespace Consultorio_Legal.Controller
         /// </summary>
         /// <param name="cliente"></param>
         [HttpPut("{idCliente}")]
+        [ProducesResponseType(typeof(Cliente),StatusCodes.Status200OK)]
+        [ProducesResponseType(typeof(ProblemDetails),StatusCodes.Status400BadRequest)]
+        [ProducesResponseType(typeof(ProblemDetails),StatusCodes.Status404NotFound)]
+        [ProducesResponseType(typeof(ProblemDetails),StatusCodes.Status500InternalServerError)]
         public async Task<IActionResult> Put(AlteraCliente cliente)
         {
             var clienteAtualizado = await clienteManager.UpdateClienteAsync(cliente);
@@ -67,10 +80,14 @@ namespace Consultorio_Legal.Controller
         }
 
         /// <summary>
-        ///     Apaga o cliente com base no Id informado!
+        ///     Exclui o cliente com base no Id informado!
         /// </summary>
-        /// <param name="id" example="1"></param>
+        /// <param name="id" example="1">Id do Cliente</param>
+        /// <remarks>Ao excluir um cliente, o mesmo será removido da base !</remarks>
         [HttpDelete("{id}")]
+        [ProducesResponseType(typeof(ProblemDetails),StatusCodes.Status200OK)]
+        [ProducesResponseType(typeof(ProblemDetails),StatusCodes.Status404NotFound)]
+        [ProducesResponseType(typeof(ProblemDetails),StatusCodes.Status500InternalServerError)]
         public async Task<IActionResult> Delete(int id)
         {
             await clienteManager.DeleteClienteAsync(id);

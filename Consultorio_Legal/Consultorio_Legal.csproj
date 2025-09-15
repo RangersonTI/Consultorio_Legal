@@ -8,7 +8,7 @@
 
   <PropertyGroup>
     <DocumentationFile>
-      B:\Documents\GitHub\Consultorio_Legal\Consultorio_Legal\Consultorio_Legal.xml
+      C:\Documents\GitHub\Consultorio_Legal\Consultorio_Legal\Consultorio_Legal.xml
     </DocumentationFile>
     <NoWarn>1701,1702,1591</NoWarn>
   </PropertyGroup>
