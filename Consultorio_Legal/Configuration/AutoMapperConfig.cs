@@ -5,7 +5,7 @@ namespace Consultorio_Legal.Configuration;
 
 public static class AutoMapperonfiguration
 {
-    public static void UseAutoMapperConfiguration(this IServiceCollection services)
+    public static void AddAutoMapperConfiguration(this IServiceCollection services)
     {   
         services.AddAutoMapper(typeof(NovoClienteMappingProfile), typeof(AlteraClienteMappingProfile));
     }

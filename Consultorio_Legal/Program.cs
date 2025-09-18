@@ -9,13 +9,11 @@ builder.Services.AddControllers();
 
 builder.Services.AddFluentValidationConfiguration();
 
-builder.Services.UseAutoMapperConfiguration();
+builder.Services.AddAutoMapperConfiguration();
 
-builder.Services.AddDbContext<ClContext>(
-    options => options.UseSqlServer(builder.Configuration.GetConnectionString("ClConnection"))
-);
+builder.Services.AddDataBaseConfiguration(builder.Configuration);
 
-builder.Services.UseDepencyInjectorConfiguration();
+builder.Services.AddDepencyInjectorConfiguration();
 
 builder.Services.AddEndpointsApiExplorer();
 
